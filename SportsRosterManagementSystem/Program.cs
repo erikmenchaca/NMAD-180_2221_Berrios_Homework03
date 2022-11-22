@@ -19,21 +19,45 @@ Dictionary<string, Team> teams;
 while (true)
 {
     PrintMenu();
-    System.Console.Write("Select Option: ");
+    Console.Write("Select Option: ");
     int option = int.Parse(Console.ReadLine());
 
     switch (option)
     {
         case 1:
-            
-        break;
+            Console.Write("Enter the name of the team: ");
+            Console.WriteLine();
+            System.Console.WriteLine("Enter the player's name: ");
+            playersName
+
+            break;
+        case 2:
+
+            break;
+        case 3:
+
+            break;
+
+        case 4:
+
+            break;
+
+        case 5:
+
+            break;
+        case 6:
+
+            break;
+        default:
+            Console.WriteLine("This is an invalid choice. Try again.");
+            break;
     }
 }
 
 void PrintMenu()
 {
-    for (int i = 0; i< menu.Length; i++)
+    for (int i = 0; i < menu.Length; i++)
     {
-        System.Console.WriteLine("{0}. {1}", i +1, menu[i]);
+        Console.WriteLine("{0}. {1}", i + 1, menu[i]);
     }
 }
