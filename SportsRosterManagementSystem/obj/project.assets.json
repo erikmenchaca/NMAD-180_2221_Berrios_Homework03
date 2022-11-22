@@ -1,0 +1,65 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "net6.0": []
+  },
+  "packageFolders": {
+    "C:\\Users\\em9927\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\em9927\\Desktop\\Erik-Homework3\\NMAD-180_2221_Berrios_Homework03\\SportsRosterManagementSystem\\SportsRosterManagementSystem.csproj",
+      "projectName": "SportsRosterManagementSystem",
+      "projectPath": "C:\\Users\\em9927\\Desktop\\Erik-Homework3\\NMAD-180_2221_Berrios_Homework03\\SportsRosterManagementSystem\\SportsRosterManagementSystem.csproj",
+      "packagesPath": "C:\\Users\\em9927\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\em9927\\Desktop\\Erik-Homework3\\NMAD-180_2221_Berrios_Homework03\\SportsRosterManagementSystem\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\em9927\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Users\\em9927\\AppData\\Roaming\\.dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
