@@ -17,8 +17,19 @@ public class Player
             if(name == null || name == "")
             {
                 return "Name is not valid.";
-                return name;
+                
             }
+        }
+    }
+    public int Number
+    {
+        get
+        {
+
+        }
+        set
+        {
+            
         }
     }
     public Player() { }
