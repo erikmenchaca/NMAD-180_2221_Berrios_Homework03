@@ -27,10 +27,14 @@ while (true)
         case 1:
 
             Console.Write("Enter the name of the team: ");
+            string teamName = Console.ReadLine(); 
             Console.WriteLine();
-            System.Console.WriteLine("Enter the player's name: ");
+            Console.Write("Enter the player's name: ");
             string playersName = Console.ReadLine();
-
+            Console.Write("Enter the player's jersey number: ");
+            int jerseyNumber = int.Parse(Console.ReadLine());
+            System.Console.Write("Enter the player's playing position: ");
+            string playerPosition = Console.ReadLine();
             break;
         case 2:
 
