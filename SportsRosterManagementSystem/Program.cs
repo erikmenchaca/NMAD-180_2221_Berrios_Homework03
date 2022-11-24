@@ -25,10 +25,11 @@ while (true)
     switch (option)
     {
         case 1:
+
             Console.Write("Enter the name of the team: ");
             Console.WriteLine();
             System.Console.WriteLine("Enter the player's name: ");
-            playersName
+            string playersName = Console.ReadLine();
 
             break;
         case 2:
@@ -53,11 +54,17 @@ while (true)
             break;
     }
 }
-
+// Methods below
 void PrintMenu()
 {
     for (int i = 0; i < menu.Length; i++)
     {
         Console.WriteLine("{0}. {1}", i + 1, menu[i]);
     }
+}
+
+// case 1 for option 1 method
+void CreateATeam()
+{
+    
 }
